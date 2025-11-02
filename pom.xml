@@ -20,6 +20,7 @@
         <module>benchmark-common</module>
         <module>variante-c-springboot-mvc</module>
         <module>variante-d-springdata-rest</module>
+        <module>variante-a-jersey</module>
     </modules>
 
     <dependencyManagement>
