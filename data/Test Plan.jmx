@@ -50,7 +50,7 @@
             </elementProp>
             <elementProp name="influxdbUrl" elementType="Argument">
               <stringProp name="Argument.name">influxdbUrl</stringProp>
-              <stringProp name="Argument.value">http://localhost:8086</stringProp>
+              <stringProp name="Argument.value">http://localhost:8086/api/v2/write?org=perf&amp;bucket=jmeter</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="application" elementType="Argument">
@@ -101,6 +101,11 @@
             <elementProp name="influxdbBucket" elementType="Argument">
               <stringProp name="Argument.name">influxdbBucket</stringProp>
               <stringProp name="Argument.value">jmeter</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+            <elementProp name="influxdbOrganization" elementType="Argument">
+              <stringProp name="Argument.name">influxdbOrganization</stringProp>
+              <stringProp name="Argument.value">perf</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
           </collectionProp>
